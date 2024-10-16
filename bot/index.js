@@ -1,1 +1,21 @@
-const
+const { 
+  ActionRowBuilder, 
+  ApplicationCommandType, 
+  ButtonBuilder, 
+  ButtonStyle, 
+  Client, 
+  Collection, 
+  ComponentType, 
+  ContextMenuCommandBuilder, 
+  EmbedBuilder, 
+  Events, 
+  GatewayIntentBits, 
+  InteractionType,
+  MessageFlagsBitField,
+  ModalBuilder,
+  Partials,
+  PermissionsBitField,
+  StringSelectMenuBuilder,
+  TextInputBuilder,
+  TextInputStyle
+} = require("discord.js");
