@@ -125,10 +125,6 @@ process.on("uncaughtExceptionMonitor", (e) => {
   console.log(e);
 });
 
-client.on(Events.InteractionCreate, async interaction => {
-  // ...
-}
-
 client.login(token)
 .then(() => {
   console.log('Token Ready');
